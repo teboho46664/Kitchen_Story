@@ -1,0 +1,30 @@
+<header>
+    <div class="container">
+      
+      <a href="#" class="logo" routerLink="/home">
+            <img class="img-fluid" src="../../../assets/images/Logo final.jpg" alt="Kitchen Story Logo">
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a routerLink="/login">Login</a>
+          </li>
+         
+
+          <li>
+            <a href="#" routerLink="/cart-page">Cart <span *ngIf="cartQuantity">{{cartQuantity}}</span></a>
+          </li>
+            <li class="menu-container">
+              <a >Admin Login</a>
+              <div class="submenu">
+                  <a routerLink="/add">Add New Product</a>
+                  <a routerLink="/remove">Remove Product</a>
+                  <a >Reset Password - Coming Soon</a> 
+                  <a>Logout</a>
+              </div>
+            </li>
+ 
+        </ul>
+        </nav>
+    </div>
+</header>

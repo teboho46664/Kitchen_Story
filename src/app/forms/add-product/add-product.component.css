@@ -1,0 +1,51 @@
+.container{
+  display: block;
+  margin: 2rem;
+  margin-top: 2rem;
+  background-color: whitesmoke;
+}
+
+h2{
+  padding: 1rem;
+  color: rgb(230, 163, 77); /* #620000 */
+  text-shadow: 1px 1px rgb(211, 181, 50);
+}
+
+.form-group p{
+  font-style: italic;
+  color: rgb(255, 221, 182); /* #620000 */
+}
+
+.form-group{
+  margin: 1rem;
+}
+
+label{
+  color: grey;
+}
+
+input[type="radio"] {
+  display: flex;
+}
+
+input[type="radio"]:checked{
+  color: #a38c07;
+  border: none;
+}
+
+div button{
+  font-size: 1rem;
+  background-color: #f8be66af; /* #e72929 */
+  color: white; /* white */
+  border-radius: 10rem;
+  padding: .7rem 1rem;
+  margin: 1rem;
+  opacity: .8;
+  outline: none;
+  text-align: center;
+}
+
+div button:hover{
+  opacity: 1;
+  cursor: pointer;
+}

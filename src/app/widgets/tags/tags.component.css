@@ -1,0 +1,13 @@
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div a{
+  background-color: lightgray; 
+  padding: .3rem .3rem;
+  margin: .15rem .1rem;
+  border-radius: 1rem;
+  
+  color: #ee9b2f; 
+}
